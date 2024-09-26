@@ -12,7 +12,7 @@ const App = () => {
 
   // Login Functionaf
   function loginUser(data) {
-    console.log(data)
+    
 
   }
 
