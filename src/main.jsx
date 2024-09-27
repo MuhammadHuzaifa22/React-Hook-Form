@@ -4,8 +4,10 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Layout from '../Layout.jsx'
 import Home from './Pages/Home.jsx'
-import Login from './Pages/Login.jsx'
-import Register from './Pages/Register.jsx'
+import AdmissionForm from './Pages/admissionForm.jsx'
+import VerifyAdmission from './Pages/verifyAdmission.jsx'
+import AdmissionVerification from './Pages/verifyAdmission.jsx'
+
 
 
 
@@ -18,10 +20,10 @@ const router = createBrowserRouter([
     children:[
       {
         path:'/',
-        element:<Login/>
+        element:<AdmissionForm/>
       },{
-        path:'register',
-        element:<Register/>
+        path:'admission',
+        element:<AdmissionVerification/>
       },
       {
         path:'home',
