@@ -6,7 +6,6 @@
   "homepage": "https://MuhammadHuzaifa22.github.io/React-Hook-Form",
   "scripts": {
     "dev": "vite",
-    "start:dev": "dotenv -e .env.development npm start",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
@@ -26,7 +25,6 @@
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.20",
     "daisyui": "^4.12.10",
-    "dotenv": "^16.4.5",
     "eslint": "^9.9.0",
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
