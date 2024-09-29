@@ -23,3 +23,4 @@ src/Config/firebaseConfig.js
 *.njsproj
 *.sln
 *.sw?
+.env
