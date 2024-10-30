@@ -1,11 +1,9 @@
 // Improting functions and variables
 import React, { useEffect, useState } from "react";
-import { appendErrors, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import { collection, query, where, getDocs } from "firebase/firestore";
-import { db } from "../Config/firebaseConfig";
 import { addDoc } from "firebase/firestore";
-
 import { doc, getDoc } from "firebase/firestore";
 
 // Admssion Verification Component

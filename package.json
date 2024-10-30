@@ -5,9 +5,10 @@
   "type": "module",
   "homepage": "https://MuhammadHuzaifa22.github.io/React-Hook-Form",
   "scripts": {
-    "dev": "vite",
     "start:dev": "dotenv -e .env.development npm start",
+    "dev": "vite",
     "build": "vite build",
+    "serve": "vite preview",
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
